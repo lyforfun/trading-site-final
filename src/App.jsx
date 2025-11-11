@@ -278,11 +278,13 @@ function App() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-                <a href="https://t.me/massson_eye" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                {/* ИСПРАВЛЕННАЯ КНОПКА "ЗАПИСАТЬСЯ" */}
+                <a href="#packages" className="w-full sm:w-auto">
                   <Button size="lg" className="w-full sm:w-auto bg-gradient-to-r from-yellow-500 to-yellow-400 hover:from-yellow-600 hover:to-yellow-500 text-black font-bold px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg">
                     Записаться <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
                   </Button>
                 </a>
+                {/* КНОПКА "СВЯЗЬ С АВТОРОМ" ОСТАЕТСЯ БЕЗ ИЗМЕНЕНИЙ */}
                 <a href="https://t.me/massson_eye" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                   <Button variant="outline" size="lg" className="w-full sm:w-auto border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg">
                     Связь с автором
@@ -817,7 +819,7 @@ function App() {
       </section>
 
       {/* Pricing */}
-      <section className="py-20 bg-gradient-to-r from-slate-900/50 to-blue-900/50">
+<section id="packages" className="py-20 bg-gradient-to-r from-slate-900/50 to-blue-900/50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
