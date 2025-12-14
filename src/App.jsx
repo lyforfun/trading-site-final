@@ -93,8 +93,8 @@ function App() {
     {
       name: "Начальные знания",
       originalPrice: "250,000",
-      price: "39,900",
-      installment: "Рассрочка 1,660 тг/мес",
+      price: "49,900",
+      installment: "Рассрочка 2,079 тг/мес",
       features: [
         "Основы трейдинга и анализа рынка",
         "Выбор торговой платформы",
@@ -110,8 +110,8 @@ function App() {
       name: "Полный Пакет",
       subtitle: "Самый популярный выбор",
       originalPrice: "450,000", 
-      price: "49,900",
-      installment: "Рассрочка 2,080 тг/мес",
+      price: "149,900",
+      installment: "Рассрочка 6,245 тг/мес",
       features: [
         "Полный курс Smart Money",
         "Авторская стратегия Money Boost",
@@ -130,8 +130,8 @@ function App() {
       name: "VIP Премиум",
       subtitle: "Максимальный результат",
       originalPrice: "750,000",
-      price: "299,900", 
-      installment: "Рассрочка 12,495 тг/мес",
+      price: "499,900", 
+      installment: "Рассрочка 20,830 тг/мес",
       features: [
         "Все материалы предыдущих пакетов",
         "5 индивидуальных сессий (Zoom)",
